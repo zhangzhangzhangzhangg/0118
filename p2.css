@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.header .item{
+    margin-top: 34px;
+    margin-right: 48px;
+    text-align: center;
+}   
+.header .item h3{
+    color: #F9C745;
+}
+
+.header .item h2 a{
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    top: 34px;
+    text-decoration: none;
+
+}    
+.header .item h1 a{
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    top: 34px;
+    text-decoration: none;
+
+}    
+.header .item h2 a:hover{
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+}
+.header .item h1:hover{
+    color: #030200;
+    display: block;
+    box-shadow: #030200 0px 3px;
+}
+
+.header .item p{
+    top: 26px;
+    left: 1204px;
+    width: 176px;
+    height: 38px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+}
+.header .item h1{
+    top: 26px;
+    left: 1204px;
+    width: 176px;
+    height: 38px;
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    line-height: 38px;
+    margin-top: -8px;
+    display: block;
+}
+
+
+.header .logo{
+    top: 24px;
+    left: 62px;
+    width: 119px;
+    height: 40px;
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 62px;
+    flex-direction: left;
+    padding-right: 605.19px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    top: 3442px;
+    left: -2px;
+    width: 1444px;
+    height: 70px;
+    /* UI Properties */
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 24px;
+}
+.wrap2{
+    display: flex;
+
+}
+.wrap2 h1{
+    text-align: center;
+    font: normal normal bold 20px/32px Kalam;
+    letter-spacing: 0px;
+    color: #F9C745;
+    opacity: 1;
+    margin: 16px;
+}
+.wrap2 h2{
+    text-align: center;
+    font: normal normal bold 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.wrap2 h3{
+    text-align: center;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.a1{
+    margin-left: 125.61px;
+    text-align: left;
+}
+.line{
+    margin-top: 88px;
+}
+.body6{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 232px;
+}
+.r1{
+    display: flex;
+    margin-left: 48px;
+}
+.r2 h3{
+    top: 3272px;
+    left: 456px;
+    width: 144px;
+    height: 33px;
+    text-align: left;
+    font: normal normal normal 24px/33px Noto Sans;
+    letter-spacing: 0px;
+    margin-left: 24px;
+}
+.r2 h4{
+    top: 3310px;
+    left: 456px;
+    width: 240px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Noto Sans;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    margin-left: 24px;
+}
+
+.rr h5{
+    background-color: #ffffff;
+    top: 3346px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 48px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+    margin-left: 24px;
+    text-align: center;
+    line-height: 44px;
+}
+.rr h5 a:hover{
+    background: #F9C745 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    display: block;
+}
+.rr h5 a{
+    text-decoration: none; 
+    color: #3A3A3A;
+    display: block;
+}
